@@ -15,6 +15,7 @@ Keep dependency flow strictly upward so base components depend only on platform 
 Instruction documents are always authoritative. Read the relevant instruction documents before planning or implementation, and continue following them while working through any plan.
 
 [Reusable UI rules](instructions/Rules/rules.md) — Project-wide reusable UI and styling rules.
+[Implementation Watchdog](WATCHDOG.md) — Token, component, asset, animation, layout, screen chrome, and navigation consistency guard. Read before writing any implementation code.
 [Sideline project onboarding](instructions/Onbording%20to%20the%20project/project-overview.md) — Product vision, gameplay pillars, and portrait-first direction.
 
 ### Plans — Read One at a Time During Implementation
