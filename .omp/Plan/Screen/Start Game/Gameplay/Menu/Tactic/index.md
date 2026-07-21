@@ -15,8 +15,7 @@ Read sub-section plans in this order during implementation, one plan at a time:
     1. [Corner](Tactic/Set Pieces/Corner/corner.md) — dropdown option. Content pending.
     2. [Freekick](Tactic/Set Pieces/Freekick/freekick.md) — dropdown option. Content pending.
     3. [Pinalties](Tactic/Set Pieces/Pinalties/pinalties.md) — dropdown option. Content pending.
-    4. [Set Pieces Taker](Tactic/Set Pieces/Set Pieces Taker/set pieces taker.md) — dropdown option. Content pending.
-    5. [Trow in](Tactic/Set Pieces/Trow in/trow in.md) — dropdown option. Content pending.
+    4. [Trow in](Tactic/Set Pieces/Trow in/trow in.md) — dropdown option. Content pending.
 
 ## Sub-Navigation Variants
 
@@ -25,7 +24,7 @@ Read sub-section plans in this order during implementation, one plan at a time:
   - Captain
   - Pormation
   - Squat
-  - Set Pieces (expandable group; expands to show Corner, Freekick, Pinalties, Set Pieces Taker, Trow in)
+  - Set Pieces (expandable group; expands to show Corner, Freekick, Pinalties, Trow in)
 
 ## Global Chrome Reference
 
