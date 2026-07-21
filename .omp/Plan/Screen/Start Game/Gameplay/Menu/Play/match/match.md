@@ -32,8 +32,79 @@ A horizontal bar at the top of the content slot.
 | **Timer Icon** | Left | ⏱ icon. |
 | **Progress Bar** | Center, full remaining width | Match time progress. Filled portion = elapsed. Marker shows current minute. |
 | **Minute** | Right of progress | e.g., "20'". Updates live. |
-| **Settings Icon** | Right | ⚙ icon. Tapping opens a dropdown with match settings (pending: pause, quit, camera, etc.). |
+| **Settings Icon** | Right | ⚙ icon. Tapping opens a dropdown with match controls. |
 
+### Settings Dropdown
+
+```
+⚙
+─────────────
+Waktu Pertandingan
+Pause
+End
+```
+
+| Option | Action |
+|---|---|
+| **Waktu Pertandingan** | Opens the time control panel (see below). |
+| **Pause** | Pauses the match. Opens a confirmation modal. |
+| **End** | Ends the match early. Opens a confirmation modal. |
+
+#### Time Control Panel
+
+When **Waktu Pertandingan** is selected, a bottom sheet slides up:
+
+```
+┌──────────────────────────────────────┐
+│  Waktu Pertandingan              ✕   │
+│  ────────────────────────────────    │
+│                                      │
+│  Match Duration                      │
+│  1 ────────────●─────────── 10       │
+│         6 minutes                    │
+│                                      │
+│  ┌──────────┐   ┌──────────┐         │
+│  │  Pause   │   │   End    │         │
+│  └──────────┘   └──────────┘         │
+└──────────────────────────────────────┘
+```
+
+| Element | Description |
+|---|---|
+| **Duration Slider** | Range 1–10 minutes. Default: 6. Sets how many real-time minutes the match runs. |
+| **Pause Button** | Pauses the match timer. Opens confirmation modal. |
+| **End Button** | Ends the match immediately. Opens confirmation modal. |
+
+#### Pause Confirmation
+
+```
+┌──────────────────────────┐
+│  Pause Match?            │
+│                          │
+│  The match will be       │
+│  paused. Resume anytime. │
+│                          │
+│  [Cancel]    [Pause]     │
+└──────────────────────────┘
+```
+
+#### End Confirmation
+
+```
+┌──────────────────────────┐
+│  End Match?              │
+│                          │
+│  The match will end      │
+│  immediately with the    │
+│  current score.          │
+│                          │
+│  [Cancel]     [End]      │
+└──────────────────────────┘
+```
+
+#### Auto-Pause on Tactic
+
+When the manager opens the **Tactic** screen (Squat), the match timer **automatically pauses**. The timer resumes when the manager returns to the match.
 ---
 
 ## 2. 2D Pitch
@@ -155,8 +226,13 @@ PlayerOnPitch {
 }
 
 BallPosition {
-  x: number
   y: number
+}
+
+- Settings dropdown includes Waktu Pertandingan, Pause, End.
+- Time control panel: range slider 1-10 minutes, Pause + End buttons.
+- Pause and End use confirmation modals.
+- Opening Tactic screen auto-pauses the match timer.
 }
 ```
 
