@@ -68,11 +68,12 @@
 
 | Screen | File | Status | Notes |
 |---|---|---|---|
-| **Squad list** | `Menu/Tactic/Squad list/squad list.md` | ⬜ | |
+| **Squad list** | `Menu/Tactic/Squad list/squad list.md` | ✅ | Serch Player pattern, view dropdown (First/Reserve/U21/U18) |
 | **Tactic** (dropdown tab) | `Menu/Tactic/Tactic/tactic.md` | ⬜ | Dropdown doc |
 | — Captain | `.../Tactic/Tactic/Captain/captain.md` | ✅ | Captain + Vice Captain slots |
-| — Pormation | `.../Tactic/Tactic/Pormation/pormation.md` | ⬜ | |
-| — Set Pieces (expandable) | `.../Tactic/Tactic/Set Pieces/set pieces.md` | ⬜ | Group doc |
+| — Pormation | `.../Tactic/Tactic/Pormation/pormation.md` | ✅ | Formation dropdown + pitch dots + name |
+| — Squat | `.../Tactic/Tactic/Squat/squat.md` | ✅ | Pitch diagram + local sub-nav + card rails |
+| — Set Pieces (expandable) | `.../Tactic/Tactic/Set Pieces/set pieces.md` | ✅ | Group doc (all sub-screens done) |
 | — — Corner | `.../Set Pieces/Corner/corner.md` | ✅ | Left + Right corner takers |
 | — — Freekick | `.../Set Pieces/Freekick/freekick.md` | ✅ | Left + Right freekick takers |
 | — — Pinalties | `.../Set Pieces/Pinalties/pinalties.md` | ✅ | 3 penalty takers |
@@ -103,7 +104,7 @@
 | Start Game — Pick Your Team | 5 | 0 | 5 |
 | Gameplay — Global & Components | 5 | 4 | 1 |
 | Gameplay — Portal Menu | 27 | 19 | 8 |
-| Gameplay — Tactic Menu | 10 | 6 | 4 |
+| Gameplay — Tactic Menu | 11 | 10 | 1 |
 | Gameplay — Transfer Menu | 3 | 3 | 0 |
 | Gameplay — Management Menu | 3 | 2 | 1 |
-| **Total** | **58** | **39** | **19** |
+| **Total** | **59** | **43** | **16** |

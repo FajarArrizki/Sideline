@@ -11,7 +11,8 @@ Read sub-section plans in this order during implementation, one plan at a time:
 3. [Tactic](Tactic/tactic.md) — dropdown tab. Content pending.
   1. [Captain](Tactic/Captain/captain.md) — dropdown option. Content pending.
   2. [Pormation](Tactic/Pormation/pormation.md) — dropdown option. Content pending.
-  3. [Set Pieces](Tactic/Set Pieces/set pieces.md) — expandable group. Content pending.
+  3. [Squat](Tactic/Squat/squat.md) — dropdown option. Content pending.
+  4. [Set Pieces](Tactic/Set Pieces/set pieces.md) — expandable group. Content pending.
     1. [Corner](Tactic/Set Pieces/Corner/corner.md) — dropdown option. Content pending.
     2. [Freekick](Tactic/Set Pieces/Freekick/freekick.md) — dropdown option. Content pending.
     3. [Pinalties](Tactic/Set Pieces/Pinalties/pinalties.md) — dropdown option. Content pending.
@@ -24,6 +25,7 @@ Read sub-section plans in this order during implementation, one plan at a time:
 - **Tactic** is a dropdown tab (text + arrow icon). Its dropdown contains:
   - Captain
   - Pormation
+  - Squat
   - Set Pieces (expandable group; expands to show Corner, Freekick, Pinalties, Set Pieces Taker, Trow in)
 
 ## Global Chrome Reference

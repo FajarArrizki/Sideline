@@ -16,10 +16,14 @@
 |---|---|---|
 | **Scouted By** | scoutName | Name of the scout who found this player. |
 
-## Empty State
+## Row Interaction
+
+- Tapping a row navigates to [Player Detail](../../../Transfer/Player%20detail/player%20detail.md) — **Free Agent variant**. Scouted youth players have no current club; the manager offers a contract directly via the [Sign Free Agent overlay](../../../Transfer/Player%20detail/player%20detail.md#7-free-agent-variant).
+
 
 - If no active scouting assignments: "No active scouting focus. Set up assignments in Scouting Focus."
 - If assignments exist but no results yet: "Scouting in progress. Check back soon."
+- If a scouted player signs, they join the squad directly.
 
 ## Reusable Components
 
