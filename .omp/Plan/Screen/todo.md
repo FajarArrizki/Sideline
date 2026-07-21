@@ -16,11 +16,11 @@
 
 | Screen | File | Status | Notes |
 |---|---|---|---|
-| Global Shell | `Start Game/pick your team/global.md` | ⬜ | Copy dari Favorite Team, pending edit |
-| Step 1 — Manager Info | `Start Game/pick your team/step 1.md` | ⬜ | Prefilled dari onboarding |
-| Step 2 — Select Country | `Start Game/pick your team/step 2.md` | ⬜ | Copy dari Favorite Team |
-| Step 3 — Select League | `Start Game/pick your team/step 3.md` | ⬜ | Copy dari Favorite Team |
-| Step 4 — Pick Team | `Start Game/pick your team/step 4.md` | ⬜ | Done → Gameplay |
+| Global Shell | `Start Game/pick your team/global.md` | ✅ | 1:1 copy from Favorite Team | Copy dari Favorite Team, pending edit |
+| Step 1 — Manager Info | `Start Game/pick your team/step 1.md` | ✅ | Prefilled from onboarding | Prefilled dari onboarding |
+| Step 2 — Select Country | `Start Game/pick your team/step 2.md` | ✅ | Identical to Favorite Team | Copy dari Favorite Team |
+| Step 3 — Select League | `Start Game/pick your team/step 3.md` | ✅ | Identical to Favorite Team | Copy dari Favorite Team |
+| Step 4 — Pick Team | `Start Game/pick your team/step 4.md` | ✅ | Done → Gameplay | Done → Gameplay |
 
 ## Gameplay — Global & Components
 
@@ -69,7 +69,7 @@
 | Screen | File | Status | Notes |
 |---|---|---|---|
 | **Squad list** | `Menu/Tactic/Squad list/squad list.md` | ✅ | Serch Player pattern, view dropdown (First/Reserve/U21/U18) |
-| **Tactic** (dropdown tab) | `Menu/Tactic/Tactic/tactic.md` | ⬜ | Dropdown doc |
+| **Tactic** (dropdown tab) | `Menu/Tactic/Tactic/tactic.md` | ✅ | Dropdown doc (all children done) |
 | — Captain | `.../Tactic/Tactic/Captain/captain.md` | ✅ | Captain + Vice Captain slots |
 | — Pormation | `.../Tactic/Tactic/Pormation/pormation.md` | ✅ | Formation dropdown + pitch dots + name |
 | — Squat | `.../Tactic/Tactic/Squat/squat.md` | ✅ | Pitch diagram + local sub-nav + card rails |
@@ -101,10 +101,10 @@
 | Section | Total | ✅ Designed | ⬜ Placeholder |
 |---|---|---|---|
 | Home | 5 | 5 | 0 |
-| Start Game — Pick Your Team | 5 | 0 | 5 |
+| Start Game — Pick Your Team | 5 | 5 | 0 |
 | Gameplay — Global & Components | 5 | 4 | 1 |
 | Gameplay — Portal Menu | 27 | 19 | 8 |
-| Gameplay — Tactic Menu | 11 | 10 | 1 |
+| Gameplay — Tactic Menu | 11 | 11 | 0 |
 | Gameplay — Transfer Menu | 3 | 3 | 0 |
 | Gameplay — Management Menu | 3 | 2 | 1 |
-| **Total** | **59** | **43** | **16** |
+| **Total** | **59** | **49** | **10** |

@@ -7,7 +7,7 @@
 Read menu plans in this order during implementation, one plan at a time:
 
 1. [Portal menu index](Portal/index.md) — Primary gameplay hub with sub-sections: Home (single), **My team** (dropdown), **My career** (dropdown), **Social** (dropdown).
-2. [Tactic menu index](Tactic/index.md) — Tactical setup with sub-sections: Overview, Squad List, **Tactic** (dropdown with Set Pieces expandable group).
+2. [Tactic with Squad List, **Tactic** (dropdown with Set Pieces expandable group).
 3. [Transfer menu index](Transfer/index.md) — Player transfer market with sub-sections: Overview, Search Player, Search Staff, Wishlist.
 4. [Management menu index](Management/index.md) — Club management with sub-sections: Overview (single tab) and Scouting Center (dropdown tab).
 
@@ -21,7 +21,7 @@ Every menu screen that needs secondary section switching must reuse the shared `
 | Menu | Sub-Navigation Tabs | Tab Variant | Dropdown Options / Nested Groups | Status |
 | --- | --- | --- | --- | --- |
 | Portal | Home, My team, My career, Social | Single + Dropdown | My team → Schedule, Standing (All League, My League), Stats (All League, My League); My career → My carrer, My contract (Contract detail, Contract offer); Social → All, My team | Pending |
-| Tactic | Overview, Squad list, Tactic | Single + Dropdown | Tactic → Captain, Pormation, Set Pieces group; Set Pieces → Corner, Freekick, Pinalties, Set Pieces Taker, Trow in | Pending |
+| Tactic with Squad list, Tactic | Single + Dropdown | Tactic → Captain, Pormation, Set Pieces group; Set Pieces → Corner, Freekick, Pinalties, Set Pieces Taker, Trow in | Pending |
 | Transfer | Serch Player, Serch Staf, Wishlist | Single | None | Pending |
 | Management with Scounting focus | Pending |
 

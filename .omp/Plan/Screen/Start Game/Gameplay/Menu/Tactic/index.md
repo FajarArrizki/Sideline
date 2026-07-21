@@ -6,9 +6,8 @@
 
 Read sub-section plans in this order during implementation, one plan at a time:
 
-1. [Overview](Overview/overview.md) — single tab. Content pending.
-2. [Squad list](Squad list/squad list.md) — single tab. Content pending.
-3. [Tactic](Tactic/tactic.md) — dropdown tab. Content pending.
+1. [Squad list](Squad list/squad list.md) — single tab. Content pending.
+2. [Tactic](Tactic/tactic.md) — dropdown tab. Content pending.
   1. [Captain](Tactic/Captain/captain.md) — dropdown option. Content pending.
   2. [Pormation](Tactic/Pormation/pormation.md) — dropdown option. Content pending.
   3. [Squat](Tactic/Squat/squat.md) — dropdown option. Content pending.
@@ -21,7 +20,7 @@ Read sub-section plans in this order during implementation, one plan at a time:
 
 ## Sub-Navigation Variants
 
-- **Overview** and **Squad list** are single tabs (plain text, no arrow).
+- **Squad list** is a single tab (plain text, no arrow).
 - **Tactic** is a dropdown tab (text + arrow icon). Its dropdown contains:
   - Captain
   - Pormation
