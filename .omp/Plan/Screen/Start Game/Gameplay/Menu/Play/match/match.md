@@ -73,22 +73,32 @@ When **Waktu Pertandingan** is selected, a bottom sheet slides up:
 |---|---|
 | **Duration Slider** | Range 1–10 minutes. Default: 6. Sets how many real-time minutes the match runs. |
 | **Pause Button** | Pauses the match timer. Opens confirmation modal. |
+```
+┌──────────────────────────────────────┐
+│  Waktu Pertandingan              ✕   │
+│  ────────────────────────────────    │
+│                                      │
+│  Duration                            │
+│  1 ────────────●─────────── 10       │
+│         6 minutes                    │
+│                                      │
+│  Speed                               │
+│  ┌──────────────────────────────┐    │
+│  │ x1                        ▾  │    │
+│  └──────────────────────────────┘    │
+│                                      │
+│  ┌──────────┐   ┌──────────┐         │
+│  │  Pause   │   │   End    │         │
+│  └──────────┘   └──────────┘         │
+└──────────────────────────────────────┘
+```
+
+| Element | Description |
+|---|---|
+| **Duration Slider** | Range 1–10 minutes. Default: 6. Sets how many real-time minutes the match runs. |
+| **Speed Dropdown** | Simulation speed multiplier. Options: x1 (normal), x2, x3, x4, x5. Default: x1. Affects how fast the match engine simulates — at x5, 1 minute of match time passes in 12 seconds of real time. |
+| **Pause Button** | Pauses the match timer. Opens confirmation modal. |
 | **End Button** | Ends the match immediately. Opens confirmation modal. |
-
-#### Pause Confirmation
-
-```
-┌──────────────────────────┐
-│  Pause Match?            │
-│                          │
-│  The match will be       │
-│  paused. Resume anytime. │
-│                          │
-│  [Cancel]    [Pause]     │
-└──────────────────────────┘
-```
-
-#### End Confirmation
 
 ```
 ┌──────────────────────────┐
