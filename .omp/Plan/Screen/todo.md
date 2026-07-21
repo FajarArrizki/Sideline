@@ -75,9 +75,9 @@
 | — Squat | `.../Tactic/Tactic/Squat/squat.md` | ✅ | Pitch diagram + local sub-nav + card rails |
 | — Set Pieces (expandable) | `.../Tactic/Tactic/Set Pieces/set pieces.md` | ✅ | Group doc (all sub-screens done) |
 | — — Corner | `.../Set Pieces/Corner/corner.md` | ✅ | Left + Right corner takers |
-| — — Freekick | `.../Set Pieces/Freekick/freekick.md` | ✅ | Left + Right freekick takers |
+| — — Freekick | `.../Set Pieces/Freekick/freekick.md` | ✅ | Direct, Long, Indirect freekick takers |
 | — — Pinalties | `.../Set Pieces/Pinalties/pinalties.md` | ✅ | 3 penalty takers |
-| — — Set Pieces Taker | `.../Set Pieces/Set Pieces Taker/set pieces taker.md` | ✅ | General set-piece taker |
+| — — Set Pieces Taker | `.../Set Pieces/Set Pieces Taker/set pieces taker.md` | ✅ | 1 slot, general set-piece taker |
 | — — Trow in | `.../Set Pieces/Trow in/trow in.md` | ✅ | Left + Right throw-in takers |
 
 ## Gameplay — Transfer Menu
